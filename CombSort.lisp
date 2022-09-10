@@ -3,7 +3,7 @@
       (return-from updateGap 0))
   (setq gap (truncate (/ gap 1.3)))
   (if (< gap 1)
-      (return-from update 1))
+      (return-from updateGap 1))
   gap
 )
 
